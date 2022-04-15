@@ -3,7 +3,7 @@
   - local: chapter0/1
     title: מבוא
 
-- title: 3. כוונון מודלFine-tuning a pretrained model
+- title: 3. כוונון מודל מאומן
   sections:
   - local: chapter3/1
     title: מבוא
