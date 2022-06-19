@@ -73,9 +73,9 @@ model.train_on_batch(batch, labels)
 ```
 {/if}
 
-כמובן, אימוון המודל רק על שני משפטים לא צפוי להוביל לתוצאות מאד טובות. על מנת לקבל תוצאות טובות יותר, יש להכין קובץ נתונים גדול יותר.
+כמובן, אימוון המודל על שני משפטים בלבד לא צפוי להוביל לתוצאות טובות במיוחד. על מנת לקבל תוצאות טובות יותר, יש להכין קובץ נתונים גדול יותר.
 Of course, just training the model on two sentences is not going to yield very good results. To get better results, you will need to prepare a bigger dataset.
-
+בפרק זה אנחנו נשתמש להדגמה בקובץ נתונים של MRPC (Microsoft Research Paraphrase Corpus) ,אשר הוצג לראשונה ב[מאמר](https://www.aclweb.org/anthology/I05-5002.pdf)
 In this section we will use as an example the MRPC (Microsoft Research Paraphrase Corpus) dataset, introduced in a [paper](https://www.aclweb.org/anthology/I05-5002.pdf) by William B. Dolan and Chris Brockett. The dataset consists of 5,801 pairs of sentences, with a label indicating if they are paraphrases or not (i.e., if both sentences mean the same thing). We've selected it for this chapter because it's a small dataset, so it's easy to experiment with training on it.
 
 ### Loading a dataset from the Hub
